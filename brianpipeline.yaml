@@ -1,0 +1,5 @@
+buildContainer: java17
+envsToDeployToOnMain: ["dev", "qa"]
+envsToDeployToOnRelease: ["stage", "perf", "prod"]
+serviceName: "renee-service"
+
