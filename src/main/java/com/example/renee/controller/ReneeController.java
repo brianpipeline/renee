@@ -12,6 +12,6 @@ public class ReneeController {
     @GetMapping("/hello-world")
     @ResponseBody
     public String helloWorld() {
-        return "Hey Renee";
+        return "Version bumped to 0.1";
     }
 }
